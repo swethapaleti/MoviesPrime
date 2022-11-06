@@ -1,0 +1,106 @@
+.login-form-container {
+  background-color: black;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (min-width: 768px) {
+  .login-form-container {
+    background-image: url('https://res.cloudinary.com/dkfefpnio/image/upload/v1667331265/netfilx_1login-bg_cp9c4n.png');
+    background-position: center;
+    background-size: cover;
+  }
+}
+
+.form-container {
+  background-color: rgba(12, 11, 16, 0.8);
+  border-radius: 8px;
+  padding: 30px;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 768px) {
+  .form-container {
+    width: 30%;
+  }
+}
+
+.login-heading {
+  color: white;
+  text-align: left;
+  padding-top: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .login-heading {
+    text-align: center;
+  }
+}
+
+.input-label {
+  font-size: 12px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.password-input-filed {
+  background-color: #333333;
+  height: 40px;
+  border: none;
+  outline: none;
+  color: #e2e8f0;
+  font-size: 14px;
+  padding: 9px;
+}
+
+.username-input-filed {
+  background-color: #333333;
+  height: 40px;
+  border: none;
+  outline: none;
+  color: #e2e8f0;
+  font-size: 14px;
+  padding: 9px;
+}
+
+.logo {
+  width: 100px;
+  position: fixed;
+  top: 30px;
+  left: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .logo {
+    width: 180px;
+    top: 40px;
+    left: 60px;
+  }
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.login-button {
+  background: #e50914;
+  border-radius: 8px;
+  border-width: 0px;
+  padding: 12px;
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.error-message {
+  font-size: 14px;
+  color: #dc2626;
+  margin-top: 10px;
+}

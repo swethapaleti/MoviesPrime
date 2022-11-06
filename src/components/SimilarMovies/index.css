@@ -1,0 +1,20 @@
+.similar-movies-img {
+  width: 90px;
+  border-radius: 4px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .similar-movies-img {
+    width: 160px;
+    border-radius: 8px;
+  }
+}
+
+@media (min-width: 768px) {
+  .similar-movies-img {
+    width: 220px;
+    border-radius: 8px;
+  }
+}

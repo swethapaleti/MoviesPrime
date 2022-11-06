@@ -1,0 +1,21 @@
+li {
+  list-style: none;
+}
+.popular-img {
+  width: 90px;
+  border-radius: 4px;
+}
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .popular-img {
+    width: 130px;
+    border-radius: 8px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .popular-img {
+    width: 250px;
+    border-radius: 8px;
+  }
+}
