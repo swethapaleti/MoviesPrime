@@ -124,7 +124,7 @@
 
 .search-input {
   width: 100%;
-  height: 16px;
+  height: 20px;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
@@ -147,7 +147,7 @@
   border: 1px solid #ffffff;
   border-radius: 4px;
   height: 24px;
-  width: 204px;
+  width: 180px;
 }
 
 .search-button {

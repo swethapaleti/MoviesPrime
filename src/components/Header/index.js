@@ -80,7 +80,7 @@ class Header extends Component {
             </li>
           </ul>
           <ul className="nav-item">
-            <li className="nav-items">
+            <li>
               <div className={searchContainer}>
                 {searchRoute && (
                   <input
